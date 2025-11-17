@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.movieCards{
+  display: flex;
+  flex-direction: row;
+  color: cornflowerblue;
+}
+
+.app{
+  color: cornflowerblue;
+  margin-bottom: 500px;
+}
+
+img{
+  max-width: 100px;
+}
+img:hover{
+  transform: scale(1.1);
+}
+
+
