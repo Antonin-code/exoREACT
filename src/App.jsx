@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import './App.css'
 import Hello from "./Hello.jsx";
 import MovieCard from "./movieCard.jsx";
@@ -14,17 +13,12 @@ export default function App() {
     ];
 
     return(
-    <div>
-    <h1>Hello there!</h1>
-    <Hello name='Star Wars!' />
-    <Hello name='Inception' />
-    <MovieCard movies={movies} />
-    </div>
+        <div>
+            <h1>Hello there!</h1>
+            <Hello name='Star Wars!' />
+            <Hello name='Inception' />
+            <MovieCard movies={movies} />
+        </div>
 
-);
+    );
 }
-
-
-
-
-
